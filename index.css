@@ -1,0 +1,210 @@
+body{
+    margin: 0;
+}
+.top{
+    width: 100%;
+    height: 70px;
+    background-color:#0A1931;
+   
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.giohang{
+    float: right;
+    color: white;
+    padding-top: 7px;
+
+}
+.giohang p{
+    margin-top: -3px;
+}
+.giohang a:link, .giohang a:visited{
+    color: white;
+    text-decoration: none;
+
+}
+#imggiohang{
+    width: 46px;
+    height: 41px;
+}
+.logo{
+    text-align: center;
+    border-bottom: solid 2px #0A1931;
+}
+.logo a:link , .logo a:visited {
+    text-decoration: none;
+    color:#0A1931;
+}
+/* phan menu */
+#divLeft{
+    width: 70%;
+    height: 50px;
+    float: left;
+}
+#divRight{
+    width: 30%;
+    height: 50px;
+    float: left;
+}
+#divLeft ul li {
+    float: left;    
+    padding-right: 123px;
+    margin-left: 22px;
+    font-size: 22px;
+    font-weight: bold;
+    list-style: none;
+  
+}
+#divLeft ul li a{
+    text-decoration: none;
+    color: #0A1931;
+}
+#iconsearch{
+    background: url(image/search1.png) no-repeat;
+    display: inline-block;
+    padding-right: 24px;
+    padding-left: 7px;
+    padding-bottom: 14px;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 25px;
+    right: 19%
+}
+#boxsearch{
+    padding-top: 11px;
+    padding-bottom: 11px;
+    margin-top: 4px;
+    margin-right: 74px;
+    padding-right: 30px;
+    border-style: none; 
+
+}
+#divRight{
+    position: relative;
+}
+#divsearch{
+    padding-top: 15px;
+    float: right;
+}
+/* phan ảnh bìa to*/
+.banner img{
+    width: 100%;
+    height: 406px;
+    padding-top: 7px;
+} 
+/* sản phẩm  tiêu biểu */
+
+.about{
+    padding-top: 20px;
+    height:285px;  
+    background-color: #0A1931;
+   
+}
+
+.Sp { 
+    float: left;
+    padding-right: 20px;
+}
+.about p{
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+}
+/* phần sản phẩm */
+.product{
+    width: 100%;
+    height: 950px;
+    background: color;
+}
+
+.containerabout{
+    padding-left: 20px;
+}
+.imgsp img{
+    width: 300px;
+    height: 344px;
+}
+.cartdathang img{
+    width: 30px;
+    height: 30px;
+}
+
+.tenlaptop{
+    font-size: 18px;
+    font-weight: bold;
+}
+.cartdathang{
+    height: 50px;
+    
+}
+.gia{
+    display: inline-block;
+    vertical-align: middle;
+    padding-bottom: 17px;
+}
+.sanpham{
+    border: solid 1px #adaaaa;
+    text-align: center;
+    float: left;
+    margin-right: 12px;
+    margin: 6px;
+   
+}
+.containerproduct{
+    padding-left: 20px;
+    
+}
+/* Phần thông tin  */
+.containerInfo{
+    width: 1170px;
+    height: 285px;
+    margin: auto;
+}
+.infomation{
+    float: left;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    height: auto;
+    
+}
+.infomation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.infomation a:link , .infomation a:visited{
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+} 
+.infomation ul li{
+    padding-top: 15px;
+}
+form.container{
+    height: 150px;
+}
+/* phần cuối bản quyền */
+/* cái gì có chung thì để vào class còn riêng thì để trong id */
+
+.footer{
+    width: 50%;
+    float: left;
+    height: 50px;
+    padding-top: 15px;
+    font-size: 15px;
+    color: gray;
+}
+#boxtext{
+    padding: 10px 80px 10px 20px;
+}
+#Submit{
+    padding: 10px;
+    padding-right: 27px;
+    margin-left: -8px;
+}
+
